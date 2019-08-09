@@ -1,0 +1,2 @@
+python mnist_main.py --batch_size=16 --epochs=15 --lr=1e-5 --contd=0 --num_classes=2 --resume="D:\Codes\Ubuntu\Codes\DC\Runs\IPRINGS_densenet_512_no_sobel\checkpoint.pth.tar" --exp="Runs/IPRINGS_densenet_pretrained_no_sobel" --start_epoch=0 --size_of_img=280 --model_type="pretrained"
+python mnist_main.py --batch_size=16 --epochs=15 --lr=1e-3 --contd=0 --num_classes=2 --resume="D:\Codes\Ubuntu\Codes\DC\Runs\Naturalist_DenseNet_prog\checkpoint.pth.tar" --exp="Runs/IPRINGS_densenet_deepcluster_no_sobel" --start_epoch=0 --size_of_img=280 --model_type="deepcluster"
